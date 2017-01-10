@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: carlsoho-IoT-App-1
+  host: carlsoho-IoT-App-1
+  disk_quota: 1024M
+  services:
+  - carlsoho-IoT-App-1-cloudantNoSQLDB
+  - carlsoho-IoT-App-1-iotf-service
